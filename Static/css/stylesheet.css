@@ -1,67 +1,43 @@
-div {
-    font-family: century-gothic, spartan, Arial;
-}
-
 .header {
-    background-color: rgb(118, 145, 167);
+    background-color: darkgrey;
     color: white;
     text-align: center;
     padding: 10px;
-}
-
-.sidebar {
-   width: 35%;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif; 
 }
 
 .wrapper {
     display: inline-flex;
-    margin-top: 10%;
     width: 100%;
 }
 
+.sidebar {
+    width: 35%;
+}
+
+.profile-image {
+    width: 100%;
+}
 .menu {
-    background-color: maroon;
-    }    
+    background-color: darkgrey;
+}    
 
-.picture {
-    border-radius: 50%;
-    margin-left: 30px;
-    margin-right: 100px;
-    padding: 15px;
-}
-
-.list {
+ul.list {
     list-style-type: none;
-    font-family: century-gothic, spartan, Arial;
-    
-}
-
-a.links {
     color: white;
+}
+
+li.links {
     text-decoration: none;
-    padding-left: 15px;
+    padding: 5%;
 }
 
-.menu-list {
-    padding: 10px;
-    text-align: center;
-    list-style: none;
-}
-
-.PersonalStatement {
-    float: right;
-    display: inline-block;
-    width: 75%;
-    margin-left: 20px;
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
 }
 
 .footer {
-    font-family: century-gothic, spartan, Arial;
-    background-color: rgb(168, 39, 39);
+    background-color: darkgrey;
     color: white;
     text-align: center;
     padding: 10px;

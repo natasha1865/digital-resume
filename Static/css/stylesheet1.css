@@ -1,0 +1,76 @@
+div {
+    font-family: century-gothic, spartan, Arial;
+}
+
+.header,.footer {
+    background-color: rgb(165, 188, 207);
+    color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.sidebar {
+    background-color: rgb(204, 217, 221);
+    width: 20%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.wrapper {
+    display: inline-flex;
+    width: 100%;
+}
+
+.menu {
+    text-align: center;
+}
+
+.picture {
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: 100px;
+    padding: 15px;
+}
+
+.list {
+    list-style-type: none;
+    font-family: century-gothic, spartan, Arial;
+    
+}
+
+a.links {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding-right: 15px;
+}
+
+.menu-list {
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+.mainBody {
+    background-color: #edefee;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+.skills {
+    margin-bottom: 0%;
+}
+
+ul {
+    margin-top: 0%;
+    float: left;
+    width: 30%;
+}
+
+h3#Professional\ Experience {
+    display: inline-flex;
+}
